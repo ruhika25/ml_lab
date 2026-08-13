@@ -1,0 +1,14 @@
+A1.
+ datatype (Nominal / Ordinal / Interval / Ratio) for each feature. 
+Year_Birth is Interval data.
+Education is Ordinal data
+Martial status is Nominal data
+Income is Ratio data
+Kidhome,Teenhome is Ratio data
+Dt_Custimer is Interval data
+recency is ratio data
+MntWines is ratio data
+MntFruits,MntMeatproducts,MntFishproducts,mntsweetproducts,mntgoldprods is ratio data
+NumDealsPurchases,NumWebPurchases,NumCaralogPurchases,NumStorePurchases,Numwebvistsmonth is ratio data 
+AcceptedCmp3, AcceptedCmp4,AcceptedCmp5,AcceptedCmp1,AcceptedCmp2 is Nominal
+Z_CostContact,Z_Revenue is ratio data
