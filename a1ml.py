@@ -1,6 +1,17 @@
+import pandas as pd
 import numpy as np
 
-A = np.array([[1,2],
-              [2,4]])
+df = pd.read_excel("Lab Session Data.xlsx", sheet_name="Purchase Data")
 
-print(np.linalg.matrix_rank(A))
+print(df)
+
+
+X = df[["Candies (#)", "Mangoes (Kg)", "Milk Packets (#)"]].values
+
+y = df["Payment (Rs)"].values
+
+print("\nX =")
+print(X)
+
+print("\ny =")
+print(y)
